@@ -1,0 +1,54 @@
+# 提取
+
+* `提取数据`：
+  * 做了什么：从（返回的）网页（的`html`，`js`等）或`json`中提取
+  * 得到什么：自己需要的内容
+  * 提取数据的方式：
+    * 从json中提取想要的内容
+      * 用json库，把json字符串转换为json对象（dict，字典）即可
+        * 无需（html）解析相关的库
+      * 常见的库
+        * `Python`
+          * `json`
+        * `C#`
+          * `Newtonsoft.Json`
+          * `JavaScriptSerializer`
+    * 从html，js等内容中提取想要的内容
+      * 原始方式=自己（用内置库）裸写代码
+        * `正则`
+          * 【整理Book】应用广泛的超强搜索：正则表达式
+          * `Python`
+            * `re`模块
+              * 【整理Book】Python中的正则表达式：re模块详解
+        * `XPath`
+          * 【整理Book】XPath知识总结
+      * 用第三方库
+        * `Python`
+          * `lxml`
+            * [【记录】Python中尝试用lxml去解析html – 在路上](https://www.crifan.com/python_try_lxml_parse_html/)
+          * `BeautifulSoup`
+            * 【整理Book】内容网页提取利器：BeautifulSoup
+          * `PyQuery`
+            * 【整理Book】Python心得：HTML解析 PyQuery
+          * [python-goose](https://github.com/grangier/python-goose)
+          * 等
+        * `C#`
+          * `HTML解析`
+            * `HtmlAgilityPack`
+            * `sgml`
+  * 涉及到
+    * `字符编码`的问题
+      * 否则编码搞不清，就会出现各种乱码问题
+      * 需要学习相关`编码`知识
+        * 【整理Book】字符编码详解与应用
+          * 【整理Book】Python心得：字符串和字符编码
+        * `html`的`meta charset`
+        * `编码检测`
+          * `Python`
+            * `chardet`
+    * 如果被爬方做了反爬
+      * `数据加密`
+        * 用技术绕过
+          * 找到`解密`的逻辑和方法
+            * 【整理Book】安卓应用的安全和破解
+              * 【已解决】尝试破解小花生app安卓apk希望看到api返回的json中的J的解密算法得到明文

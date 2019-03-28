@@ -1,0 +1,88 @@
+# 下载
+
+* `下载`=`下载网页`
+  * 做了什么：请求网址或api接口，去下载返回
+  * 得到什么：html网页或json字符串
+  * 实现方式：
+    * 原始：自己写网络函数
+      * 比如
+        * `Python`的`urllib`
+        * `C#`的`HttpWebRequest` + `HttpWebResponse`
+          * [crifanLib.cs之Http](https://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html#http)
+      * 优点：更贴近和了解底层技术
+      * 缺点：要求熟悉底层技术，相对用已有的库，写起来比较复杂
+    * 使用已有第三方库
+      * 优点：省心，高效
+      * 缺点：
+        * 要额外引入库，且要了解如何使用
+        * 对于新手，往往是直接用了第三方库后，不了解内部机制
+  * 涉及到
+    * （尤其是新手需要学习）Http基本知识
+      * `Request`
+        * `Method`
+          * `GET`
+          * `POST`
+          * 等
+        * `Header`
+          * `User-Agent`
+          * `Content-Type`
+          * `Accept`
+          * `Authorization`
+          * 等
+        * `Cookie`
+        * `Body`
+          * `data`
+            * `json`
+      * `Response`
+        * `Status Code`
+        * `Header`
+        * `Cookie`
+        * `Body`
+          * `data`
+            * `json`
+              * [主流数据格式：JSON](http://book.crifan.com/books/common_data_format_json/website)
+      * 教程：[HTTP知识总结](http://book.crifan.com/books/http_summary/website)
+    * 如果被爬方（`网站`，`app`等）
+      * 需要用户登录后才能看到数据
+        * 用技术绕过限制
+          * `模拟登陆`
+            * 先要抓包分析出登录逻辑
+            * 再用代码模拟用户登录
+      * 做了一些`反爬`措施
+        * `验证码`
+          * 用技术绕过限制
+            * `验证码识别`
+              * （用第三方）`打码平台`
+        * `IP限制` + `抓取频率`限制
+          * 用技术绕过限制
+            * `IP代理池`
+            * 设置抓取的`间隔时间`
+        * `身份限制`
+          * Http的Headers
+            * `UA`=`User-Agent`
+    * 被爬网站所含页面层级很多
+      * `抓取策略`
+        * `深度优先遍历策略`
+        * `宽度优先遍历策略`
+        * `反向链接数策略`
+        * `Partial PageRank策略`
+        * `OPIC策略策略`
+        * `大站优先策略`
+    * `抓包`
+      * 什么是抓包
+        * 对于下载来说，具体要请求网站`url`是什么，调用什么`api`接口，传递什么`参数`，需要事先去分析和研究清楚，这个过程一般叫做：`抓包`
+      * 抓包的难度
+        * `普通网页`：抓包分析，一般比较简单
+        * `复杂网站`：对于需要登录才能获取到数据，且加了验证码等做了其他反爬措施和手段的网站和app，抓包分析起来，一般都很复杂
+          * 复杂网站的抓包分析和破解，往往比（之后的，单纯的）写爬虫去 下载+提取+保存，要难多了
+      * 常用辅助工具
+        * 通用类
+          * `Wireshark`
+          * `Postman`
+            * 用于对于api去设置参数并发送请求测试是否能获取数据
+        * 针对网站网页类
+          * `Chrome`浏览器
+            * 用于分析网络请求，页面元素等内容
+        * 针对app（的api接口）类
+          * `Charles`
+            * [app抓包利器：Charles](http://book.crifan.com/books/app_capture_package_tool_charles/website)
