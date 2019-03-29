@@ -36,6 +36,8 @@
           * `HTML解析`
             * `HtmlAgilityPack`
             * `sgml`
+        * `Java`
+          * `Jsoup`
   * 涉及到
     * `字符编码`的问题
       * 否则编码搞不清，就会出现各种乱码问题

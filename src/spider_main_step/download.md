@@ -5,13 +5,16 @@
   * 得到什么：html网页或json字符串
   * 实现方式：
     * 原始：自己写网络函数
-      * 比如
+      * 举例
         * `Python`的`urllib`
         * `C#`的`HttpWebRequest` + `HttpWebResponse`
           * [crifanLib.cs之Http](https://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html#http)
       * 优点：更贴近和了解底层技术
       * 缺点：要求熟悉底层技术，相对用已有的库，写起来比较复杂
     * 使用已有第三方库
+      * 举例
+        * `Python`
+          * `requests`
       * 优点：省心，高效
       * 缺点：
         * 要额外引入库，且要了解如何使用
@@ -80,9 +83,12 @@
           * `Wireshark`
           * `Postman`
             * 用于对于api去设置参数并发送请求测试是否能获取数据
+          * `Fiddler`
+          * `HttpWatcher`
         * 针对网站网页类
           * `Chrome`浏览器
             * 用于分析网络请求，页面元素等内容
+          * `IE`（的`F12`）
         * 针对app（的api接口）类
           * `Charles`
             * [app抓包利器：Charles](http://book.crifan.com/books/app_capture_package_tool_charles/website)

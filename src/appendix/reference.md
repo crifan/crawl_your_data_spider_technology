@@ -47,3 +47,5 @@
 * [【数据采集招聘】智慧芽数据采集招聘-BOSS直聘](https://www.zhipin.com/job_detail/1414952076.html)
 * [【高级爬虫工程师招聘】智慧芽高级爬虫工程师招聘-BOSS直聘](https://www.zhipin.com/job_detail/1415603337.html)
 * [【记录】C#中的HTML解析 – 在路上](https://www.crifan.com/record_csharp_html_parser/)
+* [如何对知乎内容进行爬虫？ - 知乎](https://www.zhihu.com/question/27850529)
+* [如何用Python写爬虫](http://book.crifan.com/books/use_python_write_spider/website)
