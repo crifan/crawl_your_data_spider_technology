@@ -26,5 +26,5 @@
   * [Colly](https://github.com/gocolly/colly)
 * `NodeJS`
   * [headless-chrome-crawler](https://github.com/yujiosaka/headless-chrome-crawler)
-* `.NET`
+* `C#`
   * [abot](https://github.com/sjdirect/abot)
