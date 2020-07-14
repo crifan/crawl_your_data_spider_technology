@@ -43,7 +43,7 @@
 
 * 网站抓包分析
   * `Chrome`的`开发者工具`
-    * ![Chrome的开发者工具](../../assets/img/mac_chrome_dev_tools.png)
+    * ![Chrome的开发者工具](../assets/img/mac_chrome_dev_tools.png)
     * 快捷键：
       * Windows: `Ctrl + Shift + I`
       * Mac: `Command + Option + I`
@@ -58,11 +58,12 @@
     * `Firefox`的`firebug`
 * app抓包分析
   * `Charles`
-    * [app抓包利器：Charles](http://book.crifan.com/books/app_capture_package_tool_charles/website)
+    * 教程：[app抓包利器：Charles](http://book.crifan.com/books/app_capture_package_tool_charles/website)
 * 通用工具
   * `Wireshark`
   * `Postman`
     * 用于对于api去设置参数并发送请求测试是否能获取数据
+    * 教程：[API开发利器：Postman](http://book.crifan.com/books/api_tool_postman/website)
   * `Fiddler`
   * `HttpWatcher`
 

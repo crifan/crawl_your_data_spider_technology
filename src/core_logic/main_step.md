@@ -37,7 +37,7 @@
         * `Body`
           * `data`
             * `json`
-              * [主流数据格式：JSON](http://book.crifan.com/books/common_data_format_json/website)
+              * 教程：[主流数据格式：JSON](http://book.crifan.com/books/common_data_format_json/website)
       * 教程：[HTTP知识总结](http://book.crifan.com/books/http_summary/website)
     * 如果被爬方（`网站`，`app`等）
       * 需要用户登录后才能看到数据
@@ -72,7 +72,7 @@
     * `字符编码`的问题
       * 如果搞不清编码，就容易出现各种乱码问题
       * 需要学习相关`编码`知识
-        * 【整理Book】字符编码详解与应用
+        * 教程：[字符编码详解与应用](https://book.crifan.com/books/str_encoding_detail_application/website/)
           * 【整理Book】Python心得：字符串和字符编码
         * `html`的`meta charset`
         * `编码检测`
@@ -82,7 +82,7 @@
       * `数据加密`
         * 用技术绕过
           * 找到`解密`的逻辑和方法
-            * 【整理Book】安卓应用的安全和破解
+            * 教程：[安卓应用的安全和破解](https://book.crifan.com/books/android_app_security_crack/website/)
               * 【已解决】尝试破解小花生app安卓apk希望看到api返回的json中的J的解密算法得到明文
 * `保存数据`
   * 做了什么：把数据保存到对应的地方
@@ -91,11 +91,11 @@
     * 文件
       * `txt`
       * `csv` / `excel`
-        * [Python心得：操作CSV和Excel](http://book.crifan.com/books/python_experience_csv_excel/website)
+        * 教程：[Python心得：操作CSV和Excel](http://book.crifan.com/books/python_experience_csv_excel/website)
     * 数据库
       * `mysql`
-        * [主流关系数据库：MySQL](http://book.crifan.com/books/popular_rmdb_mysql/website/)
+        * 教程：[主流关系数据库：MySQL](http://book.crifan.com/books/popular_rmdb_mysql/website/)
       * `mongodb`
-        * [主流文档型数据库：MongoDB](http://book.crifan.com/books/popular_document_db_mongodb/website)
+        * 教程：[主流文档型数据库：MongoDB](http://book.crifan.com/books/popular_document_db_mongodb/website)
       * `sqlite`
       * 等等

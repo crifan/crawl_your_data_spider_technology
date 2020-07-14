@@ -1,6 +1,19 @@
 # 爬虫的核心逻辑
 
-此处解释爬虫的最核心的逻辑和原理，主要包含：
+## 整体概览和技术路线图
+
+爬虫的核心逻辑和整体结构和技术路线图，可以通过 一图胜千言 来表示：
+
+* 在线浏览
+  * [Spider Roadmap 20200714 - ProcessOn](https://www.processon.com/view/link/5d12dba7e4b09b096ead6880)
+* 图
+  * ![Crifan Li Spider Roadmap](../assets/img/spider_roadmap_crifanli.jpg)
+
+## 核心逻辑和原理
+
+接下来的文字解释，是对上述核心逻辑的详细诠释：
+
+爬虫的最核心的逻辑和原理，主要包含：
 
 * 爬虫的核心`流程`
   * 先要`抓包分析`

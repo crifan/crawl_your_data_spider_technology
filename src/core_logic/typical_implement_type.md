@@ -45,7 +45,7 @@
     * 从html，js等内容中提取想要的内容
       * `裸写`爬虫代码
         * `正则`
-          * 【整理Book】应用广泛的超强搜索：正则表达式
+          * [应用广泛的超强搜索：正则表达式](https://book.crifan.com/books/super_search_regex/website/)
           * `Python`
             * `re`模块
               * [Python中的正则表达式：re模块详解](http://book.crifan.com/books/python_regular_expression_re_intro/website)
@@ -56,9 +56,9 @@
           * `lxml`
             * [【记录】Python中尝试用lxml去解析html – 在路上](https://www.crifan.com/python_try_lxml_parse_html/)
           * `BeautifulSoup`
-            * 【整理Book】网页内容提取利器：BeautifulSoup
+            * [网页解析利器：BeautifulSoup](http://book.crifan.com/books/html_parse_tool_beautifulsoup/website)
           * `PyQuery`
-            * 【整理Book】Python心得：HTML解析 PyQuery
+            * [HTML解析库Python版jQuery：PyQuery](http://book.crifan.com/books/python_html_parse_pyquery/website)
           * [python-goose](https://github.com/grangier/python-goose)
           * 等
         * `C#`
