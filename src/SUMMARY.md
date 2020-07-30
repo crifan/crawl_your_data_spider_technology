@@ -4,7 +4,6 @@
 * [爬虫简介](spider_intro/README.md)
   * [爬虫的叫法](spider_intro/spider_various_name.md)
   * [为何叫爬虫](spider_intro/why_called_spider/README.md)
-    * [为何又叫模拟登陆](spider_intro/why_called_spider/why_called_emulate_login.md)
   * [爬虫应用领域](spider_intro/spider_application.md)
 * [爬虫的核心逻辑](core_logic/README.md)
   * [爬虫的核心流程](core_logic/core_process.md)
