@@ -10,10 +10,10 @@
       ]
     },
     "sitemap-general": {
-      "prefix": "https://book.crifan.com/gitbook/crawl_your_data_spider_technology/website/"
+      "prefix": "https://book.crifan.org/books/crawl_your_data_spider_technology/website/"
     },
     "toolbar-button": {
-      "url": "http://book.crifan.com/books/crawl_your_data_spider_technology/pdf/crawl_your_data_spider_technology.pdf"
+      "url": "https://book.crifan.org/books/crawl_your_data_spider_technology/pdf/crawl_your_data_spider_technology.pdf"
     }
   }
 }

@@ -1,7 +1,7 @@
 # 爬取你要的数据：爬虫技术
 
-* 最新版本：`v2.8`
-* 更新时间：`20200730`
+* 最新版本：`v2.9`
+* 更新时间：`20200918`
 
 ## 简介
 
@@ -21,19 +21,25 @@
 
 ### 在线浏览
 
-* [爬取你要的数据：爬虫技术 book.crifan.com](http://book.crifan.com/books/crawl_your_data_spider_technology/website)
+* [爬取你要的数据：爬虫技术 book.crifan.org](https://book.crifan.org/books/crawl_your_data_spider_technology/website)
 * [爬取你要的数据：爬虫技术 crifan.github.io](https://crifan.github.io/crawl_your_data_spider_technology/website)
 
 ### 离线下载阅读
 
-* [爬取你要的数据：爬虫技术 PDF](http://book.crifan.com/books/crawl_your_data_spider_technology/pdf/crawl_your_data_spider_technology.pdf)
-* [爬取你要的数据：爬虫技术 ePub](http://book.crifan.com/books/crawl_your_data_spider_technology/epub/crawl_your_data_spider_technology.epub)
-* [爬取你要的数据：爬虫技术 Mobi](http://book.crifan.com/books/crawl_your_data_spider_technology/mobi/crawl_your_data_spider_technology.mobi)
+* [爬取你要的数据：爬虫技术 PDF](https://book.crifan.org/books/crawl_your_data_spider_technology/pdf/crawl_your_data_spider_technology.pdf)
+* [爬取你要的数据：爬虫技术 ePub](https://book.crifan.org/books/crawl_your_data_spider_technology/epub/crawl_your_data_spider_technology.epub)
+* [爬取你要的数据：爬虫技术 Mobi](https://book.crifan.org/books/crawl_your_data_spider_technology/mobi/crawl_your_data_spider_technology.mobi)
 
 ## 版权说明
 
-此电子书教程的全部内容，如无特别说明，均为本人原创和整理。其中部分内容参考自网络，均已备注了出处。如有发现侵犯您版权，请通过邮箱联系我 `admin 艾特 crifan.com`，我会尽快删除。谢谢合作。
+此电子书教程的全部内容，如无特别说明，均为本人原创和整理。其中部分内容参考自网络，均已备注了出处。如有发现侵犯您版权，请通过邮箱联系我 `admin 艾特 crifan.org`，我会尽快删除。谢谢合作。
 
 ## 鸣谢
 
 感谢我的老婆**陈雪**的包容理解和悉心照料，才使得我`crifan`有更多精力去专注技术专研和整理归纳出这些电子书和技术教程，特此鸣谢。
+
+## 更多其他电子书
+
+本人`crifan`还写了其他`100+`本电子书教程，感兴趣可移步至：
+
+[crifan/crifan_ebook_readme: Crifan的电子书的使用说明](https://github.com/crifan/crifan_ebook_readme)
